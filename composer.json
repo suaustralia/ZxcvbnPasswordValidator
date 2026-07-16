@@ -19,7 +19,7 @@
     "symfony/validator": "^4.0 || ^5.4.2"
   },
   "require-dev": {
-    "guzzlehttp/psr7": "^1.8.3",
+    "guzzlehttp/psr7": "^2.6",
     "php-http/httplug": "^1.1",
     "phpcompatibility/php-compatibility": "^9.3.5",
     "phpunit/phpunit": "^9.5.11",
