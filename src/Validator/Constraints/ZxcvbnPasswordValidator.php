@@ -19,7 +19,7 @@ class ZxcvbnPasswordValidator extends ConstraintValidator
 
     private $translator;
 
-    public function __construct(TranslatorInterface $translator = null)
+    public function __construct(?TranslatorInterface $translator = null)
     {
         // If translator is missing create a new translator.
         // With the 'en' locale and 'validators' domain.
